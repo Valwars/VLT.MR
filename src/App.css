@@ -1,0 +1,475 @@
+:root{
+  --bg-color : #141416;
+  --main-color : #7D7BE2
+}
+
+*{
+  box-sizing: border-box;
+  font-style: normal;
+  font-weight: normal;
+
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+@font-face {
+  font-family: "Poppins-Bold";
+  src: url("../public/Poppins/Poppins-Bold.ttf")format('truetype');
+  font-display: swap;
+}
+
+
+@font-face {
+  font-family: "Poppins-SemiBold";
+  src: url("../public/Poppins/Poppins-SemiBold.ttf")format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Poppins-Medium";
+  src: url("../public/Poppins/Poppins-Medium.ttf")format('truetype');
+  font-display: swap;
+}
+
+
+
+h1{
+  font-family: "Poppins-Bold";
+  font-family: 700;
+  font-size:clamp(2.8rem, 4vw + .1rem, 6rem);
+  line-height:clamp(2.8rem, 4vw + .1rem, 6rem);
+
+}
+
+h3{
+  font-family: "Poppins-SemiBold";
+  font-family: 600;
+  
+  line-height: 24px;
+  opacity: 0.67;
+  font-size: clamp(1.2rem, 1.3vw + .1rem, 1.8em);
+
+}
+
+p, input, textarea,.fullpage a, nav a{
+  font-family: "Poppins-Medium";
+  font-family: 500;
+  line-height: 24px;
+  font-size: clamp(1rem, 1.20vw + .1rem, 1.5em);
+
+
+  
+}
+
+
+body{
+  overflow-x: hidden;
+}
+body{
+  height: 100%;
+}
+
+body, .App{
+  background-color: var(--bg-color);
+  color: #FFFFFF;
+
+
+}
+.App {
+  position: relative;
+  text-align: center;
+  height: 100%;
+}
+
+
+.fullpage > div{
+  position: relative;
+  z-index: 100;
+  width: 90%;
+  margin: auto;
+  height: 100%;
+  min-height: 100vh;
+  display: flex;align-items: center;
+  text-align: left;
+  flex-direction: column;
+}
+#home, #about,#skills,#projects,#contact{
+  min-height: 100vh;
+}
+#skills, #projects{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+header{
+  width: 100%;
+  position:fixed;
+  display: flex;
+  z-index: 1000;
+  flex-direction: row;
+  justify-content: space-between;
+ padding: 20px 50px;
+}
+
+#contactbtn{
+  width: fit-content;
+  color: #FFFFFF;
+  border: 1px solid #FFF;
+  padding: 10px 25px;
+  height: fit-content;
+  border-radius: 10px;
+  text-decoration: none;
+  font-size: 20px;
+  margin: auto 0;
+  position: relative;
+  z-index: 20;
+  cursor: pointer;
+  transition: 0.2s;
+
+}
+#contactbtn:hover{
+  border-color: var(--main-color);
+}
+.dots{
+  width: 70%;
+  position: fixed;
+  right: -60px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.pagecontent{
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  min-height: 100vh;
+  margin: auto;
+  position: relative;
+
+  z-index: 1;
+}
+
+.pagecontent .contentleft{
+  width: 45%;
+  margin: auto;
+}
+.contentright img{
+  width: 600px;
+  position: relative;
+  height: auto;
+}
+
+.fullpage a{
+
+  text-decoration: none;
+  color: var(--main-color);
+}
+
+#about .pagecontent{
+  gap: 100px;
+}
+#about .contentleft,#contact .contentleft{
+  width: 35%;
+}
+#about .contentright,#contact .contentright{
+width: 45%;
+margin: auto;
+
+}
+
+#skills .content,#projects .content{
+  width: 70%;
+  text-align: center;
+  margin:0  auto;
+}
+
+.icons{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 70px;
+  width: 70%;
+  margin: 100px auto;
+  align-items: center;
+  justify-content: center;
+}
+
+#projects h3{
+  color: var(--main-color);
+  opacity: 1;
+  cursor: pointer;
+}
+
+#projects{
+  position: relative;
+}
+
+#projects .content{
+  width: 60%;
+}
+.progress{
+  position: absolute;
+  bottom: 100px;
+  display: flex;
+  flex-direction: row;
+  z-index: 1;
+  gap: 20px;align-items: center;
+}
+
+.bubble{cursor: pointer;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background-color: #FFF;
+  opacity: 0.57;
+  transition: 0.2s;
+  
+}
+.bubble:not(.bubble.selected):hover{transform: scale(1.7);}
+.bubble.selected{
+  width: 25px;
+  height: 25px;
+  opacity: 1;
+  background-color: var(--main-color);
+}
+
+span{
+font-family: "Poppins-Bold";
+}
+
+#projects .contentleft p{
+  width: 80%;
+}
+
+.fullpage .cube{
+  display: block;
+  position: absolute;
+  z-index: 1;background-color: var(--main-color);
+  width: 200px;
+  height: 200px;
+  transform: rotate(-25deg) translateY(-100px);
+  min-height: auto;
+  border-radius: 15px;
+  left: 30%;
+}
+
+.contentright img{
+  width: clamp(24rem, 45vw, 45rem);
+
+}
+#projects .pagecontent .contentright img{
+width: clamp(25rem, 45vw, 50rem);
+}
+
+form{
+  width: 100%;
+  position: relative;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+form > div{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+input, textarea{
+  background-color: #3A3942;
+  border: 0;
+  color: #FFF;
+  padding: 10px;
+  border-radius: 10px;
+  resize: none;
+  font-size: clamp(1rem, 1.05vw + .1rem, 1.5rem) !important;
+
+}
+
+label{
+  font-family: "Poppins-SemiBold";
+  font-size: clamp(1rem, 1.10vw + .1rem, 1.3em);
+
+}
+textarea{
+  height: 150px;
+}
+input:focus, textarea:focus{
+  outline: none;
+}
+
+button{
+  font-size: clamp(1rem, 1.20vw + .1rem, 1.5em);
+
+  background-color: var(--main-color);
+  color: #FFF;
+  border: 0;
+  padding: 10px;  border-radius: 10px;
+font-family: "Poppins-Bold";
+cursor: pointer;
+}
+
+
+.Toastify__toast--error {
+  border-radius: 10px !important;
+  font-size: clamp(1rem, 1.05vw + .1rem, 1.5rem) !important;
+  background: var(--bg-color) !important;
+  color: var(--text-color) !important;
+}
+
+.Toastify__toast--success {
+  border-radius: 10px !important;
+  font-size: clamp(1rem, 1.05vw + .1rem, 1.5rem) !important;
+  background: var(--bg-color) !important;
+  color: #FFF !important;
+}
+
+.Toastify {
+  z-index: 10000000000 !important;
+}
+
+.toastProgress {
+  background: var(--main-color) !important;
+}
+
+.cube2{
+  width: 100px;
+  height: 100px;
+  border-radius: 10px;
+  background-color: var(--main-color);
+  opacity: 0.5;
+  display: block;
+  position: absolute;
+  bottom: 20%;
+  right: 20px;
+  transform: rotate(40deg);
+ 
+  
+}
+.round{width: 100px;
+height: 100px;
+border-radius: 50%; position: absolute;
+left: -100px;
+top: 600px;
+background-color: var(--main-color);}
+
+#projects a{
+  display: block;
+  margin-top: 50px;
+}
+.rotate-image {
+  width: 100%;
+  height: 100%;
+  transform-style: preserve-3d;
+  animation: rotateAnimation 4s infinite linear;
+}
+
+.threeCircles{
+  position: absolute;
+  top: 40%;
+  left: 40%;
+  z-index: 10000000;
+}
+@keyframes rotateAnimation {
+  from {
+    transform: rotateY(0deg);
+  }
+  to {
+    transform: rotateY(360deg);
+  }
+}
+@media (max-width: 860px)  {
+  nav{
+    display: none !important
+  }
+  #home .pagecontent, #projects .pagecontent{
+    flex-direction: column-reverse;
+  }
+  
+  .pagecontent > *{
+    margin:  0px !important;
+  }
+  
+  .pagecontent > div{
+width: 100% !important;
+display: flex;
+flex-direction: column;
+margin: auto;
+  }
+.pagecontent{
+    gap:0px !important;
+    min-height: auto;
+    margin: 0;
+  }
+ 
+  #skills .content, #projects .content{
+    width: 100%;
+
+  }
+  .icons{
+    width: 100%;
+  }
+  .icons img{
+    width: clamp(1rem, 10vw + .1rem, 9rem);
+  }
+  header{
+    position: relative;
+    padding: 20px 20px;
+    background-color: var(--bg-color);
+  }
+  .fullpage .cube{
+    width: 100px;
+    height: 100px;
+    left: 40%;
+    top: 230px;
+    z-index: 10;
+  }
+  #home, #about,#skills,#projects,#contact{
+    margin-bottom: 100px;
+  }
+  #home, #about,#skills,#projects,#contact{
+  min-height: auto;
+  }
+
+  #contact{
+    margin-top: 200px;
+  }
+  .progress{
+    position: relative;
+    
+    margin-top: 120px;
+  }
+  #projects > div{
+    margin: auto;
+    bottom: -20px;
+  }
+  .pagecontent{
+    margin: auto 0  !important;
+  }
+  #projects .pagecontent .contentright img{
+    display: block;
+    width: 96%;
+    margin: auto;
+  }
+  #projects .contentleft p{
+    width: 100%;
+  }
+
+  form{
+    margin-top: 50px;
+  }
+  .Toastify__toast{
+    width: 95% !important;
+    margin: auto !important;
+    bottom: 75vh !important;
+    color: #FFF;
+}
+
+    #home .contentright, #projects .contentright{
+      height: fit-content;
+    display: flex;justify-content: center;align-items: center;  }
+}
