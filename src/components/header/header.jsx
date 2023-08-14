@@ -23,19 +23,19 @@ export const ContactBtn = () => {
 export const Navigation = ({ currentSection }) => {
   return (
     <nav>
-      <CustomLink to="/#home" currentSection={currentSection}>
+      <CustomLink to="/VLT.MR/#home" currentSection={currentSection}>
         00
       </CustomLink>
-      <CustomLink to="/#about" currentSection={currentSection}>
+      <CustomLink to="/VLT.MR/#about" currentSection={currentSection}>
         01
       </CustomLink>
-      <CustomLink to="/#skills" currentSection={currentSection}>
+      <CustomLink to="/VLT.MR/#skills" currentSection={currentSection}>
         02
       </CustomLink>
-      <CustomLink to="/#projects" currentSection={currentSection}>
+      <CustomLink to="/VLT.MR/#projects" currentSection={currentSection}>
         03
       </CustomLink>
-      <CustomLink to="/#contact" currentSection={currentSection}>
+      <CustomLink to="/VLT.MR/#contact" currentSection={currentSection}>
         04
       </CustomLink>
     </nav>
