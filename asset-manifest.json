@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/VLT.MR/static/css/main.3ef5e3b8.css",
-    "main.js": "/VLT.MR/static/js/main.2c5d67e4.js",
+    "main.js": "/VLT.MR/static/js/main.b14c089d.js",
     "static/js/787.41018a48.chunk.js": "/VLT.MR/static/js/787.41018a48.chunk.js",
     "static/media/home.png": "/VLT.MR/static/media/home.234990cdc2aac09adba2.png",
     "static/media/lego.png": "/VLT.MR/static/media/lego.2b25e3e50ee2f9cfe8a0.png",
@@ -16,11 +16,11 @@
     "static/media/logo.svg": "/VLT.MR/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/VLT.MR/index.html",
     "main.3ef5e3b8.css.map": "/VLT.MR/static/css/main.3ef5e3b8.css.map",
-    "main.2c5d67e4.js.map": "/VLT.MR/static/js/main.2c5d67e4.js.map",
+    "main.b14c089d.js.map": "/VLT.MR/static/js/main.b14c089d.js.map",
     "787.41018a48.chunk.js.map": "/VLT.MR/static/js/787.41018a48.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.3ef5e3b8.css",
-    "static/js/main.2c5d67e4.js"
+    "static/js/main.b14c089d.js"
   ]
 }
