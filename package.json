@@ -1,7 +1,7 @@
 {
   "name": "webfolio",
   "version": "0.1.0",
-   "homepage": "https://Valwars.github.io/VLT.MR",
+   "homepage": "https://Valwars.github.io/VLT.MR/",
 
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
