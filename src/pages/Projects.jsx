@@ -60,7 +60,6 @@ const Projects = () => {
   ];
   const [ref, inView] = useInView({
     triggerOnce: false,
-    rootMargin: `-${400}px 0px`, // Définir la marge d'intersection
   });
 
   return (

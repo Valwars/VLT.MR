@@ -430,6 +430,7 @@ margin: auto;
   }
   #home, #about,#skills,#projects,#contact{
     margin-bottom: 100px;
+    overflow-x: hidden !important;
   }
   #home, #about,#skills,#projects,#contact{
   min-height: auto;
@@ -439,9 +440,9 @@ margin: auto;
     margin-top: 200px;
   }
   .progress{
-    position: relative;
+    position: static;
     
-    margin-top: 120px;
+    margin-top: 70px !important;
   }
   #projects > div{
     margin: auto;

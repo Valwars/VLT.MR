@@ -8,7 +8,6 @@ import { useInView } from "react-intersection-observer"; // Cette bibliothèque 
 const Contact = () => {
   const [ref, inView] = useInView({
     triggerOnce: false,
-    rootMargin: `-${400}px 0px`, // Définir la marge d'intersection
   });
 
   const [toSend, setToSend] = useState({

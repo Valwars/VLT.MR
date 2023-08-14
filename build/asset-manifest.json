@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/VLT.MR/static/css/main.c522bc69.css",
-    "main.js": "/VLT.MR/static/js/main.d55d5654.js",
+    "main.css": "/VLT.MR/static/css/main.3ef5e3b8.css",
+    "main.js": "/VLT.MR/static/js/main.73e9a0d2.js",
     "static/js/787.41018a48.chunk.js": "/VLT.MR/static/js/787.41018a48.chunk.js",
     "static/media/home.png": "/VLT.MR/static/media/home.234990cdc2aac09adba2.png",
     "static/media/lego.png": "/VLT.MR/static/media/lego.2b25e3e50ee2f9cfe8a0.png",
@@ -15,12 +15,12 @@
     "static/media/dots.png": "/VLT.MR/static/media/dots.e6d8b2da305ca7e84239.png",
     "static/media/logo.svg": "/VLT.MR/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/VLT.MR/index.html",
-    "main.c522bc69.css.map": "/VLT.MR/static/css/main.c522bc69.css.map",
-    "main.d55d5654.js.map": "/VLT.MR/static/js/main.d55d5654.js.map",
+    "main.3ef5e3b8.css.map": "/VLT.MR/static/css/main.3ef5e3b8.css.map",
+    "main.73e9a0d2.js.map": "/VLT.MR/static/js/main.73e9a0d2.js.map",
     "787.41018a48.chunk.js.map": "/VLT.MR/static/js/787.41018a48.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c522bc69.css",
-    "static/js/main.d55d5654.js"
+    "static/css/main.3ef5e3b8.css",
+    "static/js/main.73e9a0d2.js"
   ]
 }
