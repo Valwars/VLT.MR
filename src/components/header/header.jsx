@@ -43,7 +43,7 @@ export const Navigation = ({ currentSection }) => {
 };
 
 function CustomLink({ to, currentSection, children, ...props }) {
-  const isActive = `/#${currentSection}` === to; // Utilisez currentSection pour déterminer si le lien est actif
+  const isActive = `/VLT.MR/#${currentSection}` === to; // Utilisez currentSection pour déterminer si le lien est actif
   return (
     <Link to={to} {...props} className={isActive ? "selected" : ""}>
       {children}

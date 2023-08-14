@@ -26,14 +26,17 @@ const Skills = () => {
     python,
     php,
   ];
-  const [ref, inView] = useInView({ triggerOnce: false });
+  const [ref, inView] = useInView({
+    triggerOnce: false,
+    rootMargin: `${40}% 0px`, // Définir la marge d'intersection
+  });
 
   return (
     <div id="skills">
       <motion.div
         ref={ref}
         className="content"
-        initial={{ opacity: 0, y: 100 }} // État initial de l'élément (invisible et légèrement décalé vers le bas)
+        initial={{ opacity: 0, y: 0 }} // État initial de l'élément (invisible et légèrement décalé vers le bas)
         animate={{ opacity: inView ? 1 : 0, y: inView ? 0 : 100 }} // Animation lorsqu'il entre dans la vue
         transition={{ duration: 0.6, ease: "easeOut" }} // Durée et type de transition
       >
