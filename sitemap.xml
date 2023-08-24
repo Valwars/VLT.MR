@@ -7,7 +7,7 @@
     <changefreq>yearly</changefreq>
     <priority>1.0</priority>
     <image:image>
-      <image:loc>https://valwars.github.io/VLT.MR/image-url.jpg</image:loc>
+      <image:loc>https://valwars.github.io/VLT.MR/favicon.ico</image:loc>
       <image:caption>Image Caption</image:caption>
       <image:title>Image Title</image:title>
     </image:image>
