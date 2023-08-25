@@ -62,7 +62,7 @@ const Skills = () => {
         transition={{ delay: 0.3, duration: 0.6, ease: "easeOut" }} // Durée et type de transition
       >
         {items.map((item) => {
-          return <img src={item}></img>;
+          return <img src={item} alt="skill icon"></img>;
         })}
       </motion.div>
 

@@ -1,8 +1,7 @@
 {
   "name": "webfolio",
   "version": "0.1.0",
-   "homepage": "https://Valwars.github.io/VLT.MR/",
-
+  "homepage": "https://Valwars.github.io/VLT.MR/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
@@ -27,7 +26,9 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d build",
+    "postdeploy": "npm run postbuild",
+    "postbuild": "react-snap"
   },
   "eslintConfig": {
     "extends": [

@@ -7,6 +7,7 @@ import sparkly from "../assets/sparkly.png";
 import lego from "../assets/lego.png";
 import { useInView } from "react-intersection-observer"; // Cette bibliothèque peut vous aider à détecter quand un élément est dans la vue
 import { ThreeCircles } from "react-loader-spinner";
+import convert from "../assets/convert.png";
 const Projects = () => {
   const [current, setCurrent] = useState(0);
   const items = [
@@ -33,6 +34,7 @@ const Projects = () => {
       built={"React, Node JS, Mongo DB, Stripe integration, Google’s APIs"}
       url={"#"}
     />,
+
     <Composant
       type={"E-learning application"}
       title={"Dev Academy"}
@@ -40,6 +42,14 @@ const Projects = () => {
       img={dev}
       built={"React, Node JS, Mongo DB"}
       url={"https://vlt-devacademy.com/"}
+    />,
+    <Composant
+      title={"Online file converter"}
+      explain={"Video, audio, image and even youtube video file converter !"}
+      img={convert}
+      type={"Web application"}
+      built={"React, Node JS"}
+      url={"https://convert-co.com/"}
     />,
     <Composant
       type={"Web Application"}
@@ -150,7 +160,7 @@ const Composant = ({ type, title, explain, img, built, url, code }) => {
             middleCircleColor=""
           />
         )}
-        <img src={img} alt="" onLoad={() => setLoaded(true)} />
+        <img src={img} alt={title} onLoad={() => setLoaded(true)} />
       </div>
     </div>
   );

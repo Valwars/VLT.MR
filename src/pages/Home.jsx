@@ -15,7 +15,7 @@ const Home = () => {
             <Link to="/#about">About me {" >"}</Link>
           </div>
           <div className="contentright">
-            <img src={mockup} alt="" />
+            <img src={mockup} alt="vlt_dev Mockup instagram" />
           </div>
         </div>
       </div>

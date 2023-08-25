@@ -90,7 +90,7 @@ function App() {
         <Skills />
         <Projects />
         <Contact />
-        <img src={dots} alt="" className="dots" />
+        <img src={dots} alt="background dots" className="dots" />
       </div>
       <Navigation currentSection={currentSection} />
     </div>

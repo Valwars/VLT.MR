@@ -4,7 +4,7 @@ import "./header.css";
 export const Name = () => {
   const navigate = useNavigate();
   return (
-    <div className="name" onClick={() => navigate("/#home")}>
+    <div className="name" onClick={() => navigate("/VLT.MR/#home")}>
       <div className="cube"></div>
 
       <h1>VLT.MR</h1>
@@ -14,7 +14,7 @@ export const Name = () => {
 
 export const ContactBtn = () => {
   return (
-    <Link to="/#contact" id="contactbtn">
+    <Link to="/VLT.MR/#contact" id="contactbtn">
       Contact
     </Link>
   );
