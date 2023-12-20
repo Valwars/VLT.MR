@@ -1,5 +1,7 @@
 import { useState, useEffect } from "react";
 import hopteo from "../assets/hopteo.png";
+import topdev from "../assets/TopDev.png";
+
 import { motion, AnimatePresence } from "framer-motion"; // Importer motion et AnimatePresence depuis framer-motion
 import dev from "../assets/devac.png";
 import franck from "../assets/ebook.png";
@@ -12,6 +14,20 @@ const Projects = () => {
   const [current, setCurrent] = useState(0);
   const items = [
     <Info setCurrent={setCurrent} />,
+
+    <Composant
+    title={"TopDev-media"}
+    explain={
+      "Website where users can discuss and help each other, I also publish weekly articles."
+    }
+    img={topdev}
+    type={"Forum/blog"}
+    built={
+      "NextJS, Vercel, Mongo DB, GridFS, Google’s APIs"
+    }
+    url={"https://www.topdev-media.com/"}
+  />,
+
     <Composant
       title={"Hopteo Manager"}
       explain={
@@ -38,14 +54,14 @@ const Projects = () => {
     <Composant
       type={"E-learning application"}
       title={"Dev Academy"}
-      explain={"Web application containing tutorials on web development."}
+      explain={"Web application containing tutorials on web development. (no longer online) "}
       img={dev}
       built={"React, Node JS, Mongo DB"}
       url={"https://vlt-devacademy.com/"}
     />,
     <Composant
       title={"Online file converter"}
-      explain={"Video, audio, image and even youtube video file converter !"}
+      explain={"Video, audio, image and even youtube video file converter ! (no longer online)"}
       img={convert}
       type={"Web application"}
       built={"React, Node JS"}
