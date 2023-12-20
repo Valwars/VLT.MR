@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/VLT.MR/static/css/main.3ef5e3b8.css",
-    "main.js": "/VLT.MR/static/js/main.25f6147d.js",
+    "main.js": "/VLT.MR/static/js/main.99776984.js",
     "static/js/787.41018a48.chunk.js": "/VLT.MR/static/js/787.41018a48.chunk.js",
     "static/media/home.png": "/VLT.MR/static/media/home.234990cdc2aac09adba2.png",
     "static/media/lego.png": "/VLT.MR/static/media/lego.2b25e3e50ee2f9cfe8a0.png",
@@ -11,17 +11,18 @@
     "static/media/Poppins-Medium.ttf": "/VLT.MR/static/media/Poppins-Medium.673ed42382ab264e0bf5.ttf",
     "static/media/Poppins-SemiBold.ttf": "/VLT.MR/static/media/Poppins-SemiBold.ac8d04b620e54be9b0f0.ttf",
     "static/media/Poppins-Bold.ttf": "/VLT.MR/static/media/Poppins-Bold.cdb29a5d7ccf57ff05a3.ttf",
+    "static/media/TopDev.png": "/VLT.MR/static/media/TopDev.e18bebd583e4141ed66b.png",
     "static/media/convert.png": "/VLT.MR/static/media/convert.4285e98195a654121737.png",
     "static/media/devac.png": "/VLT.MR/static/media/devac.433537091caa79c224fb.png",
     "static/media/dots.png": "/VLT.MR/static/media/dots.e6d8b2da305ca7e84239.png",
     "index.html": "/VLT.MR/index.html",
     "static/media/logo.svg": "/VLT.MR/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "main.3ef5e3b8.css.map": "/VLT.MR/static/css/main.3ef5e3b8.css.map",
-    "main.25f6147d.js.map": "/VLT.MR/static/js/main.25f6147d.js.map",
+    "main.99776984.js.map": "/VLT.MR/static/js/main.99776984.js.map",
     "787.41018a48.chunk.js.map": "/VLT.MR/static/js/787.41018a48.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.3ef5e3b8.css",
-    "static/js/main.25f6147d.js"
+    "static/js/main.99776984.js"
   ]
 }
