@@ -10,6 +10,7 @@ import python from "../assets/python.png";
 import php from "../assets/php.png";
 import react from "../assets/react.png";
 import next from "../assets/Next.png";
+import vue from "../assets/vue.png";
 
 import { motion } from "framer-motion";
 import { useInView } from "react-intersection-observer"; // Cette bibliothèque peut vous aider à détecter quand un élément est dans la vue
@@ -18,6 +19,7 @@ const Skills = () => {
   const items = [
     next,
     react,
+    vue,
     node,
     html,
     css,

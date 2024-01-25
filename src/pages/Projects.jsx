@@ -10,6 +10,8 @@ import lego from "../assets/lego.png";
 import { useInView } from "react-intersection-observer"; // Cette bibliothèque peut vous aider à détecter quand un élément est dans la vue
 import { ThreeCircles } from "react-loader-spinner";
 import convert from "../assets/convert.png";
+import word from "../assets/wordathon.png";
+
 const Projects = () => {
   const [current, setCurrent] = useState(0);
   const items = [
@@ -48,7 +50,7 @@ const Projects = () => {
       img={franck}
       type={"E-commerce web application"}
       built={"React, Node JS, Mongo DB, Stripe integration, Google’s APIs"}
-      url={"#"}
+      url={"https://www.franck-rcrd.com/ebook"}
     />,
 
     <Composant
@@ -60,21 +62,14 @@ const Projects = () => {
       url={"https://vlt-devacademy.com/"}
     />,
     <Composant
-      title={"Online file converter"}
-      explain={"Video, audio, image and even youtube video file converter ! (no longer online)"}
-      img={convert}
-      type={"Web application"}
-      built={"React, Node JS"}
-      url={"https://convert-co.com/"}
-    />,
-    <Composant
-      type={"Web Application"}
-      title={"Sparkly"}
-      explain={"Online dating web application, with dates, swipes, chats..."}
-      img={sparkly}
-      built={"React, Node JS, Mongo DB"}
-      code={"https://github.com/Valwars/Projet-Web-L3"}
-    />,
+    title={"WordAthon"}
+    explain={"French SUTOM like, first semester Master 1 project. Includes game, statistics, history and data persistence."}
+    img={word}
+    type={"Web application"}
+    built={"Vue.js"}
+    url={"https://valwars.github.io/WordAthon"}
+  />,
+  
     <Composant
       type={"Software Application"}
       title={"Lego Builder"}
