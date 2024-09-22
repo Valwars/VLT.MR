@@ -38,7 +38,7 @@ const Skills = () => {
 
   return (
     <div id="skills">
-      <motion.div
+      <div
         ref={ref}
         className="content"
         initial={{ opacity: 0, y: 0 }} // État initial de l'élément (invisible et légèrement décalé vers le bas)
@@ -58,8 +58,8 @@ const Skills = () => {
           developer building API Rest with NodeJS, Express, MongoDB. These
           skills enable me to create complete web applications.
         </p>
-      </motion.div>
-      <motion.div
+      </div>
+      <div
         ref={ref}
         className="icons"
         initial={{ opacity: 0, y: 100 }} // État initial de l'élément (invisible et légèrement décalé vers le bas)
@@ -69,7 +69,7 @@ const Skills = () => {
         {items.map((item) => {
           return <img src={item} alt="skill icon"></img>;
         })}
-      </motion.div>
+      </div>
 
       <div className="round"></div>
     </div>

@@ -59,7 +59,7 @@ const Contact = () => {
   };
 
   return (
-    <motion.div
+    <div
       id="contact"
       ref={ref}
       initial={{ opacity: 0, x: -200, y: -100 }} // État initial de l'élément (invisible et légèrement décalé vers le bas)
@@ -111,7 +111,7 @@ const Contact = () => {
           </form>
         </div>
       </div>
-    </motion.div>
+    </div>
   );
 };
 

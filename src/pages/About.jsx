@@ -9,7 +9,7 @@ const About = () => {
     <>
       <div id="about">
         <div className="pagecontent">
-          <motion.div
+          <div
             ref={ref}
             className="contentleft"
             initial={{ opacity: 0, y: 100 }} // État initial de l'élément (invisible et légèrement décalé vers le bas)
@@ -22,8 +22,8 @@ const About = () => {
               I’m Valentin...
             </h1>
             <h3>Full Stack Developer / Javascript Lover / And much more...</h3>
-          </motion.div>
-          <motion.div
+          </div>
+          <div
             ref={ref}
             className="contentright"
             initial={{ opacity: 0, x: 100 }} // État initial de l'élément (invisible et légèrement décalé vers le bas)
@@ -45,7 +45,7 @@ const About = () => {
               details.
             </p>{" "}
             <p>I also share web development tutorials on instagram.</p>{" "}
-          </motion.div>
+          </div>
         </div>
         <div className="cube2"></div>
       </div>

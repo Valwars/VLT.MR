@@ -1,5 +1,4 @@
 import logo from "./logo.svg";
-import "./App.css";
 import { useLocation } from "react-router-dom";
 import Home from "./pages/Home";
 import { useEffect, useState } from "react";

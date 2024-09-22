@@ -18,14 +18,14 @@ const Projects = () => {
     <Info setCurrent={setCurrent} />,
 
     <Composant
-    title={"TopDev-media"}
+    title={"TopDev - Coding Interviews"}
     explain={
-      "Website where users can discuss and help each other, I also publish weekly articles."
+      "Website where you can practice coding interviews to improve your skills, with progress tracking."
     }
     img={topdev}
-    type={"Forum/blog"}
+    type={"Digital product"}
     built={
-      "NextJS, Vercel, Mongo DB, GridFS, Google’s APIs"
+      "NextJS, Vercel, Mongo DB, Stripe, Mistral API, Google’s APIs"
     }
     url={"https://www.topdev-media.com/"}
   />,
@@ -84,7 +84,7 @@ const Projects = () => {
   });
 
   return (
-    <motion.div
+    <div
       id="projects"
       ref={ref}
       initial={{ opacity: 0, y: 100 }} // État initial de l'élément (invisible et légèrement décalé vers le bas)
@@ -94,7 +94,7 @@ const Projects = () => {
       }} // Animation lorsqu'il entre dans la vue
       transition={{ duration: 0.6, ease: "easeOut" }} // Durée et type de transition
     >
-      <motion.div
+      <div
         key={current}
         {...{
           initial: { opacity: 0, x: 100 },
@@ -104,7 +104,7 @@ const Projects = () => {
         transition={{ duration: 0.5 }}
       >
         {items[current]}
-      </motion.div>
+      </div>
       <div className="progress">
         {items.map((item, index) => {
           return (
@@ -115,7 +115,7 @@ const Projects = () => {
           );
         })}
       </div>
-    </motion.div>
+    </div>
   );
 };
 
