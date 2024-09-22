@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/VLT.MR/static/css/main.45f0bd7a.css",
-    "main.js": "/VLT.MR/static/js/main.e518e88b.js",
+    "main.css": "/VLT.MR/static/css/main.435450ec.css",
+    "main.js": "/VLT.MR/static/js/main.1024ae7c.js",
     "static/js/787.41018a48.chunk.js": "/VLT.MR/static/js/787.41018a48.chunk.js",
     "static/media/home.png": "/VLT.MR/static/media/home.70ed9f962fd8180ee101.png",
     "static/media/TopDev.png": "/VLT.MR/static/media/TopDev.1888de47f1431f9a9d44.png",
@@ -18,12 +18,12 @@
     "static/media/dots.png": "/VLT.MR/static/media/dots.e6d8b2da305ca7e84239.png",
     "index.html": "/VLT.MR/index.html",
     "static/media/logo.svg": "/VLT.MR/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
-    "main.45f0bd7a.css.map": "/VLT.MR/static/css/main.45f0bd7a.css.map",
-    "main.e518e88b.js.map": "/VLT.MR/static/js/main.e518e88b.js.map",
+    "main.435450ec.css.map": "/VLT.MR/static/css/main.435450ec.css.map",
+    "main.1024ae7c.js.map": "/VLT.MR/static/js/main.1024ae7c.js.map",
     "787.41018a48.chunk.js.map": "/VLT.MR/static/js/787.41018a48.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.45f0bd7a.css",
-    "static/js/main.e518e88b.js"
+    "static/css/main.435450ec.css",
+    "static/js/main.1024ae7c.js"
   ]
 }
